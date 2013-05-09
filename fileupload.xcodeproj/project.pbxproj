@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C05BB147173BEB160019260B /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C05BB146173BEB160019260B /* MediaPlayer.framework */; };
+		C0DD60A1173BF36B0029223B /* phone.mov in Resources */ = {isa = PBXBuildFile; fileRef = C0DD60A0173BF36B0029223B /* phone.mov */; };
 		FA4DF163173AE1F8002970F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA4DF162173AE1F8002970F5 /* UIKit.framework */; };
 		FA4DF165173AE1F8002970F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA4DF164173AE1F8002970F5 /* Foundation.framework */; };
 		FA4DF167173AE1F8002970F5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA4DF166173AE1F8002970F5 /* CoreGraphics.framework */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C05BB146173BEB160019260B /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		C0DD60A0173BF36B0029223B /* phone.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = phone.mov; sourceTree = "<group>"; };
 		FA4DF15F173AE1F8002970F5 /* fileupload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fileupload.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA4DF162173AE1F8002970F5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FA4DF164173AE1F8002970F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -65,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C05BB147173BEB160019260B /* MediaPlayer.framework in Frameworks */,
 				FA4DF163173AE1F8002970F5 /* UIKit.framework in Frameworks */,
 				FA4DF165173AE1F8002970F5 /* Foundation.framework in Frameworks */,
 				FA4DF167173AE1F8002970F5 /* CoreGraphics.framework in Frameworks */,
@@ -88,9 +93,10 @@
 			isa = PBXGroup;
 			children = (
 				FA4DF168173AE1F8002970F5 /* fileupload */,
-				FA4DF18C173AE1F9002970F5 /* fileuploadTests */,
 				FA4DF161173AE1F8002970F5 /* Frameworks */,
 				FA4DF160173AE1F8002970F5 /* Products */,
+				FA4DF18D173AE1F9002970F5 /* Supporting Files */,
+				FA4DF18C173AE1F9002970F5 /* fileuploadTests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +112,7 @@
 		FA4DF161173AE1F8002970F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C05BB146173BEB160019260B /* MediaPlayer.framework */,
 				FA4DF162173AE1F8002970F5 /* UIKit.framework */,
 				FA4DF164173AE1F8002970F5 /* Foundation.framework */,
 				FA4DF166173AE1F8002970F5 /* CoreGraphics.framework */,
@@ -122,6 +129,7 @@
 				FA4DF17A173AE1F8002970F5 /* MainStoryboard.storyboard */,
 				FA4DF17D173AE1F8002970F5 /* ViewController.h */,
 				FA4DF17E173AE1F8002970F5 /* ViewController.m */,
+				C0DD60A0173BF36B0029223B /* phone.mov */,
 				FA4DF169173AE1F8002970F5 /* Supporting Files */,
 			);
 			path = fileupload;
@@ -146,7 +154,6 @@
 			children = (
 				FA4DF192173AE1F9002970F5 /* fileuploadTests.h */,
 				FA4DF193173AE1F9002970F5 /* fileuploadTests.m */,
-				FA4DF18D173AE1F9002970F5 /* Supporting Files */,
 			);
 			path = fileuploadTests;
 			sourceTree = "<group>";
@@ -158,6 +165,7 @@
 				FA4DF18F173AE1F9002970F5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			path = fileuploadTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +244,7 @@
 				FA4DF177173AE1F8002970F5 /* Default@2x.png in Resources */,
 				FA4DF179173AE1F8002970F5 /* Default-568h@2x.png in Resources */,
 				FA4DF17C173AE1F8002970F5 /* MainStoryboard.storyboard in Resources */,
+				C0DD60A1173BF36B0029223B /* phone.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +462,7 @@
 				FA4DF199173AE1F9002970F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA4DF19A173AE1F9002970F5 /* Build configuration list for PBXNativeTarget "fileuploadTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +471,7 @@
 				FA4DF19C173AE1F9002970F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

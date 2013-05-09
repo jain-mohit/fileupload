@@ -7,11 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import <MediaPlayer/MediaPlayer.h>
 @interface ViewController : UIViewController {
      NSMutableData *data;
 }
 
 @property(nonatomic,strong)IBOutlet UIImageView *img;
+- (IBAction)playVideo:(id)sender;
+@property (nonatomic, strong) MPMoviePlayerController *moviePlayer;
 
 @end
