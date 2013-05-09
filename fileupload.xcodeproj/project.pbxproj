@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA4DF163173AE1F8002970F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA4DF162173AE1F8002970F5 /* UIKit.framework */; };
+		FA4DF165173AE1F8002970F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA4DF164173AE1F8002970F5 /* Foundation.framework */; };
+		FA4DF167173AE1F8002970F5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA4DF166173AE1F8002970F5 /* CoreGraphics.framework */; };
+		FA4DF16D173AE1F8002970F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA4DF16B173AE1F8002970F5 /* InfoPlist.strings */; };
+		FA4DF16F173AE1F8002970F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4DF16E173AE1F8002970F5 /* main.m */; };
+		FA4DF173173AE1F8002970F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4DF172173AE1F8002970F5 /* AppDelegate.m */; };
+		FA4DF175173AE1F8002970F5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FA4DF174173AE1F8002970F5 /* Default.png */; };
+		FA4DF177173AE1F8002970F5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA4DF176173AE1F8002970F5 /* Default@2x.png */; };
+		FA4DF179173AE1F8002970F5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA4DF178173AE1F8002970F5 /* Default-568h@2x.png */; };
+		FA4DF17C173AE1F8002970F5 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA4DF17A173AE1F8002970F5 /* MainStoryboard.storyboard */; };
+		FA4DF17F173AE1F8002970F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4DF17E173AE1F8002970F5 /* ViewController.m */; };
+		FA4DF187173AE1F9002970F5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA4DF186173AE1F9002970F5 /* SenTestingKit.framework */; };
+		FA4DF188173AE1F9002970F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA4DF162173AE1F8002970F5 /* UIKit.framework */; };
+		FA4DF189173AE1F9002970F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA4DF164173AE1F8002970F5 /* Foundation.framework */; };
+		FA4DF191173AE1F9002970F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA4DF18F173AE1F9002970F5 /* InfoPlist.strings */; };
+		FA4DF194173AE1F9002970F5 /* fileuploadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4DF193173AE1F9002970F5 /* fileuploadTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA4DF18A173AE1F9002970F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA4DF157173AE1F8002970F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA4DF15E173AE1F8002970F5;
+			remoteInfo = fileupload;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA4DF15F173AE1F8002970F5 /* fileupload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fileupload.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4DF162173AE1F8002970F5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FA4DF164173AE1F8002970F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA4DF166173AE1F8002970F5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FA4DF16A173AE1F8002970F5 /* fileupload-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "fileupload-Info.plist"; sourceTree = "<group>"; };
+		FA4DF16C173AE1F8002970F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA4DF16E173AE1F8002970F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA4DF170173AE1F8002970F5 /* fileupload-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "fileupload-Prefix.pch"; sourceTree = "<group>"; };
+		FA4DF171173AE1F8002970F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA4DF172173AE1F8002970F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA4DF174173AE1F8002970F5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FA4DF176173AE1F8002970F5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FA4DF178173AE1F8002970F5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FA4DF17B173AE1F8002970F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		FA4DF17D173AE1F8002970F5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FA4DF17E173AE1F8002970F5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FA4DF185173AE1F9002970F5 /* fileuploadTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fileuploadTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4DF186173AE1F9002970F5 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		FA4DF18E173AE1F9002970F5 /* fileuploadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "fileuploadTests-Info.plist"; sourceTree = "<group>"; };
+		FA4DF190173AE1F9002970F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA4DF192173AE1F9002970F5 /* fileuploadTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fileuploadTests.h; sourceTree = "<group>"; };
+		FA4DF193173AE1F9002970F5 /* fileuploadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fileuploadTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA4DF15C173AE1F8002970F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA4DF163173AE1F8002970F5 /* UIKit.framework in Frameworks */,
+				FA4DF165173AE1F8002970F5 /* Foundation.framework in Frameworks */,
+				FA4DF167173AE1F8002970F5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA4DF181173AE1F9002970F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA4DF187173AE1F9002970F5 /* SenTestingKit.framework in Frameworks */,
+				FA4DF188173AE1F9002970F5 /* UIKit.framework in Frameworks */,
+				FA4DF189173AE1F9002970F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA4DF156173AE1F8002970F5 = {
+			isa = PBXGroup;
+			children = (
+				FA4DF168173AE1F8002970F5 /* fileupload */,
+				FA4DF18C173AE1F9002970F5 /* fileuploadTests */,
+				FA4DF161173AE1F8002970F5 /* Frameworks */,
+				FA4DF160173AE1F8002970F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA4DF160173AE1F8002970F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA4DF15F173AE1F8002970F5 /* fileupload.app */,
+				FA4DF185173AE1F9002970F5 /* fileuploadTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA4DF161173AE1F8002970F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA4DF162173AE1F8002970F5 /* UIKit.framework */,
+				FA4DF164173AE1F8002970F5 /* Foundation.framework */,
+				FA4DF166173AE1F8002970F5 /* CoreGraphics.framework */,
+				FA4DF186173AE1F9002970F5 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA4DF168173AE1F8002970F5 /* fileupload */ = {
+			isa = PBXGroup;
+			children = (
+				FA4DF171173AE1F8002970F5 /* AppDelegate.h */,
+				FA4DF172173AE1F8002970F5 /* AppDelegate.m */,
+				FA4DF17A173AE1F8002970F5 /* MainStoryboard.storyboard */,
+				FA4DF17D173AE1F8002970F5 /* ViewController.h */,
+				FA4DF17E173AE1F8002970F5 /* ViewController.m */,
+				FA4DF169173AE1F8002970F5 /* Supporting Files */,
+			);
+			path = fileupload;
+			sourceTree = "<group>";
+		};
+		FA4DF169173AE1F8002970F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA4DF16A173AE1F8002970F5 /* fileupload-Info.plist */,
+				FA4DF16B173AE1F8002970F5 /* InfoPlist.strings */,
+				FA4DF16E173AE1F8002970F5 /* main.m */,
+				FA4DF170173AE1F8002970F5 /* fileupload-Prefix.pch */,
+				FA4DF174173AE1F8002970F5 /* Default.png */,
+				FA4DF176173AE1F8002970F5 /* Default@2x.png */,
+				FA4DF178173AE1F8002970F5 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA4DF18C173AE1F9002970F5 /* fileuploadTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA4DF192173AE1F9002970F5 /* fileuploadTests.h */,
+				FA4DF193173AE1F9002970F5 /* fileuploadTests.m */,
+				FA4DF18D173AE1F9002970F5 /* Supporting Files */,
+			);
+			path = fileuploadTests;
+			sourceTree = "<group>";
+		};
+		FA4DF18D173AE1F9002970F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA4DF18E173AE1F9002970F5 /* fileuploadTests-Info.plist */,
+				FA4DF18F173AE1F9002970F5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA4DF15E173AE1F8002970F5 /* fileupload */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA4DF197173AE1F9002970F5 /* Build configuration list for PBXNativeTarget "fileupload" */;
+			buildPhases = (
+				FA4DF15B173AE1F8002970F5 /* Sources */,
+				FA4DF15C173AE1F8002970F5 /* Frameworks */,
+				FA4DF15D173AE1F8002970F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fileupload;
+			productName = fileupload;
+			productReference = FA4DF15F173AE1F8002970F5 /* fileupload.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA4DF184173AE1F9002970F5 /* fileuploadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA4DF19A173AE1F9002970F5 /* Build configuration list for PBXNativeTarget "fileuploadTests" */;
+			buildPhases = (
+				FA4DF180173AE1F9002970F5 /* Sources */,
+				FA4DF181173AE1F9002970F5 /* Frameworks */,
+				FA4DF182173AE1F9002970F5 /* Resources */,
+				FA4DF183173AE1F9002970F5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA4DF18B173AE1F9002970F5 /* PBXTargetDependency */,
+			);
+			name = fileuploadTests;
+			productName = fileuploadTests;
+			productReference = FA4DF185173AE1F9002970F5 /* fileuploadTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA4DF157173AE1F8002970F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Compuware;
+			};
+			buildConfigurationList = FA4DF15A173AE1F8002970F5 /* Build configuration list for PBXProject "fileupload" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FA4DF156173AE1F8002970F5;
+			productRefGroup = FA4DF160173AE1F8002970F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA4DF15E173AE1F8002970F5 /* fileupload */,
+				FA4DF184173AE1F9002970F5 /* fileuploadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA4DF15D173AE1F8002970F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA4DF16D173AE1F8002970F5 /* InfoPlist.strings in Resources */,
+				FA4DF175173AE1F8002970F5 /* Default.png in Resources */,
+				FA4DF177173AE1F8002970F5 /* Default@2x.png in Resources */,
+				FA4DF179173AE1F8002970F5 /* Default-568h@2x.png in Resources */,
+				FA4DF17C173AE1F8002970F5 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA4DF182173AE1F9002970F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA4DF191173AE1F9002970F5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FA4DF183173AE1F9002970F5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA4DF15B173AE1F8002970F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA4DF16F173AE1F8002970F5 /* main.m in Sources */,
+				FA4DF173173AE1F8002970F5 /* AppDelegate.m in Sources */,
+				FA4DF17F173AE1F8002970F5 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA4DF180173AE1F9002970F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA4DF194173AE1F9002970F5 /* fileuploadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA4DF18B173AE1F9002970F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA4DF15E173AE1F8002970F5 /* fileupload */;
+			targetProxy = FA4DF18A173AE1F9002970F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA4DF16B173AE1F8002970F5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA4DF16C173AE1F8002970F5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FA4DF17A173AE1F8002970F5 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA4DF17B173AE1F8002970F5 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		FA4DF18F173AE1F9002970F5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA4DF190173AE1F9002970F5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA4DF195173AE1F9002970F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FA4DF196173AE1F9002970F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA4DF198173AE1F9002970F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fileupload/fileupload-Prefix.pch";
+				INFOPLIST_FILE = "fileupload/fileupload-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FA4DF199173AE1F9002970F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fileupload/fileupload-Prefix.pch";
+				INFOPLIST_FILE = "fileupload/fileupload-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FA4DF19B173AE1F9002970F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/fileupload.app/fileupload";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fileupload/fileupload-Prefix.pch";
+				INFOPLIST_FILE = "fileuploadTests/fileuploadTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		FA4DF19C173AE1F9002970F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/fileupload.app/fileupload";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fileupload/fileupload-Prefix.pch";
+				INFOPLIST_FILE = "fileuploadTests/fileuploadTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA4DF15A173AE1F8002970F5 /* Build configuration list for PBXProject "fileupload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA4DF195173AE1F9002970F5 /* Debug */,
+				FA4DF196173AE1F9002970F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA4DF197173AE1F9002970F5 /* Build configuration list for PBXNativeTarget "fileupload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA4DF198173AE1F9002970F5 /* Debug */,
+				FA4DF199173AE1F9002970F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA4DF19A173AE1F9002970F5 /* Build configuration list for PBXNativeTarget "fileuploadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA4DF19B173AE1F9002970F5 /* Debug */,
+				FA4DF19C173AE1F9002970F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA4DF157173AE1F8002970F5 /* Project object */;
+}
